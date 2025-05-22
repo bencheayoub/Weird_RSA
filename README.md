@@ -1,7 +1,8 @@
-# RSA Wiener's Attack Challenge
+# **Writeup: Chinese Cipher Challenge**  
+**Category**: Cryptography  
+**Points**: 45  
+**Solves**: 3/5.  
 
-## Description
-We are given an RSA challenge setup with a very large public exponent `e`. This suggests that the private exponent `d` might be small, making it vulnerable to Wiener's attack.
 
 ## Approach
 Since `e` is unusually large, Wiener's attack becomes a viable method to recover the private exponent `d`. After obtaining `d`, standard RSA decryption is performed to retrieve the flag.
