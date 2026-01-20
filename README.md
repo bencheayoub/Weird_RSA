@@ -26,7 +26,6 @@ plaintext = pow(ct, d, n)
 print(long_to_bytes(plaintext))
 ```
 
-
 ## Flag
 The decrypted flag is:  
 **INTIGRITI{0r_n07_50_53cur3_m4yb3}**
