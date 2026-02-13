@@ -6,7 +6,6 @@
 ## Approach
 Since `e` is unusually large, Wiener's attack becomes a viable method to recover the private exponent `d`. After obtaining `d`, standard RSA decryption is performed to retrieve the flag.
 
-
 ## Solution Code
 ```python
 from owiener import *
